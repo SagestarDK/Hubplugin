@@ -70,39 +70,4 @@ public class GuiManager {
 
         return inv;
     }
-
-
-    /**
-     * Handles clicks inside the editor GUI.
-     * - Prevents control button clicks from being moved
-     * - Handles save/test/close actions
-     */
-    public void handleInventoryClick(InventoryClickEvent event) {
-        // TODO: Implement click logic
-    }
-
-    /**
-     * Handles drag events to prevent dragging over control buttons.
-     */
-    public void handleInventoryDrag(InventoryDragEvent event) {
-        // TODO: Implement drag blocking
-    }
-
-    /**
-     * Extracts the lobby items from slots 0–35 of the editor GUI.
-     * These are the items that will be saved and given to players.
-     */
-    private List<ItemStack> getEditedItems(Inventory guiInventory) {
-        // TODO: Extract and return items
-        return null;
-    }
-
-    /**
-     * Checks whether the given inventory is the editor GUI.
-     * Used for event filtering.
-     */
-    private boolean isEditorInventory(Inventory inventory) {
-        // TODO: Match based on title or metadata
-        return false;
-    }
 }
