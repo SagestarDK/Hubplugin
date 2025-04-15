@@ -1,0 +1,21 @@
+name: HubPlugin
+version: '1.0-SNAPSHOT'
+main: org.hubPlugin.HubPlugin.Main
+api-version: '1.20'
+authors: [ SagestarDK ]
+description: Hubplugin
+
+commands:
+  hubedit:
+    description: Visual command to configure player GUI for admins
+    usage: "/hubedit"
+    permission: hub.edit
+    permission-message: You don't have permission to use this command.
+
+  givehubitems:
+    description: Gives the current lobby items to a player
+    usage: "/givehubitems <player>"
+    permission: hub.give
+    permission-message: You don't have permission to use this command.
+
+
